@@ -14717,17 +14717,17 @@
 		(embedded_fonts no)
 	)
 	(symbol "C0603_100uF"
-		(extends "CO6O3_1uF")
+		(extends "CO6O3_10nF")
 		(property "Reference" "C"
-			(at 5.334 4.064 0)
+			(at -4.826 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 5.334 1.27 0)
+		(property "Value" "100uF"
+			(at -4.318 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14735,7 +14735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 5.588 -1.778 0)
+			(at 11.43 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14751,8 +14751,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CERAMIC"
-			(at -14.224 -8.128 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
