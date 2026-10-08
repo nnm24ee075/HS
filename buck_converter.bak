@@ -22,12 +22,13 @@
 				)
 			)
 		)
-		(property "Footprint" "7809"
+		(property "Footprint" "BuckConverter_V0A:7809"
 			(at 11.43 -0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -191,7 +192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603_220pF"
+		(property "Footprint" "BuckConverter_V0A:C0603"
 			(at 16.764 -9.398 0)
 			(effects
 				(font
@@ -331,12 +332,13 @@
 				)
 			)
 		)
-		(property "Footprint" "CO6O3_0.1uF"
+		(property "Footprint" "BuckConverter_V0A:C0603"
 			(at 13.462 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -494,7 +496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CO6O3_10nF"
+		(property "Footprint" "BuckConverter_V0A:C0603"
 			(at 11.43 -2.286 0)
 			(effects
 				(font
@@ -657,7 +659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CO6O3_1uF"
+		(property "Footprint" "BuckConverter_V0A:C0603"
 			(at 5.588 -1.778 0)
 			(effects
 				(font
@@ -713,7 +715,7 @@
 		(symbol "CO6O3_1uF_0_1"
 			(polyline
 				(pts
-					(xy -8.89 6.35) (xy -8.89 1.27)
+					(xy 0.254 5.08) (xy 0.254 0)
 				)
 				(stroke
 					(width 0)
@@ -725,7 +727,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 3.81) (xy -10.16 3.81)
+					(xy 0.254 2.54) (xy -1.016 2.54)
 				)
 				(stroke
 					(width 0)
@@ -737,7 +739,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 6.35) (xy -7.62 1.27)
+					(xy 1.524 5.08) (xy 1.524 0)
 				)
 				(stroke
 					(width 0)
@@ -749,7 +751,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 3.81) (xy -6.35 3.81)
+					(xy 1.524 2.54) (xy 2.794 2.54)
 				)
 				(stroke
 					(width 0)
@@ -762,7 +764,7 @@
 		)
 		(symbol "CO6O3_1uF_1_1"
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -3.556 2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -780,7 +782,7 @@
 				)
 			)
 			(pin input line
-				(at -4.064 3.81 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -805,7 +807,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 37.592 11.176 0)
+			(at 33.782 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,14 +815,14 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 32.004 11.176 0)
+			(at 28.194 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BuckConverter_V0A:Inductor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -876,9 +878,9 @@
 		)
 		(symbol "INDUCTOR_0_1"
 			(arc
-				(start 25.4 12.7)
-				(mid 26.9875 15.5037)
-				(end 28.575 12.7)
+				(start 21.59 7.62)
+				(mid 23.1775 10.4237)
+				(end 24.765 7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -888,9 +890,9 @@
 				)
 			)
 			(arc
-				(start 28.575 12.7)
-				(mid 30.1625 15.5035)
-				(end 31.75 12.7)
+				(start 24.765 7.62)
+				(mid 26.3525 10.4235)
+				(end 27.94 7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -900,9 +902,9 @@
 				)
 			)
 			(arc
-				(start 31.75 12.7)
-				(mid 33.3375 15.5037)
-				(end 34.925 12.7)
+				(start 27.94 7.62)
+				(mid 29.5275 10.4237)
+				(end 31.115 7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -912,9 +914,9 @@
 				)
 			)
 			(arc
-				(start 34.925 12.7)
-				(mid 36.5125 15.504)
-				(end 38.1 12.7)
+				(start 31.115 7.62)
+				(mid 32.7025 10.424)
+				(end 34.29 7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -926,7 +928,7 @@
 		)
 		(symbol "INDUCTOR_1_1"
 			(pin input line
-				(at 22.86 12.7 0)
+				(at 19.05 7.62 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -944,7 +946,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 12.7 180)
+				(at 36.83 7.62 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -10683,7 +10685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN5 (SO-8FL) CASE 506EZ"
+		(property "Footprint" "BuckConverter_V0A:N-Mosfet"
 			(at 26.416 1.778 0)
 			(effects
 				(font
@@ -13620,23 +13622,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 23.368 13.208 0)
+			(at 4.826 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "10k"
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "BuckConverter_V0A:R0603"
+			(at -7.62 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +13656,7 @@
 			)
 		)
 		(property "Description" "THIN FILM RESISTOR"
-			(at 22.606 4.826 0)
+			(at 14.986 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,7 +13665,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO  10K, 75V, PD=100mV,TOL=+/-1% -55 TO+55 DEG C ,DIELECTRIC "
-			(at 29.972 3.302 0)
+			(at 22.352 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13672,7 +13674,7 @@
 			)
 		)
 		(property "MANUFACTURER PN" "RPO6O3FRE0710KL"
-			(at 22.86 6.35 0)
+			(at 15.24 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13681,7 +13683,7 @@
 			)
 		)
 		(property "SPECIFICATIONS" " 10K, 75V, PD=100mV,TOL=+/-1% -55 TO+55 DEG C ,DIELECTRIC "
-			(at 27.432 0.508 0)
+			(at 19.812 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13692,8 +13694,8 @@
 		(symbol "R0603_10K_0_1"
 			(polyline
 				(pts
-					(xy 17.78 15.24) (xy 17.78 15.24) (xy 18.0975 16.51) (xy 18.5737 13.97) (xy 19.2881 16.51) (xy 20.0819 13.97)
-					(xy 20.6375 16.51) (xy 21.2725 13.97) (xy 21.59 15.24) (xy 21.59 15.24)
+					(xy 2.54 2.54) (xy 2.54 2.54) (xy 2.8575 3.81) (xy 3.3337 1.27) (xy 4.0481 3.81) (xy 4.8419 1.27)
+					(xy 5.3975 3.81) (xy 6.0325 1.27) (xy 6.35 2.54) (xy 6.35 2.54)
 				)
 				(stroke
 					(width 0)
@@ -13706,7 +13708,7 @@
 		)
 		(symbol "R0603_10K_1_1"
 			(pin input line
-				(at 15.24 15.24 0)
+				(at 0 2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -13724,7 +13726,7 @@
 				)
 			)
 			(pin input line
-				(at 24.13 15.24 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -13764,12 +13766,13 @@
 				)
 			)
 		)
-		(property "Footprint" "RO6O3_12K"
+		(property "Footprint" "BuckConverter_V0A:R0603"
 			(at 6.604 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13892,12 +13895,13 @@
 				)
 			)
 		)
-		(property "Footprint" "RO6O3_5R"
+		(property "Footprint" "BuckConverter_V0A:R0603"
 			(at 17.78 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14020,7 +14024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BuckConverter_V0A:SOIC_8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14256,12 +14260,13 @@
 				)
 			)
 		)
-		(property "Footprint" "UCC"
+		(property "Footprint" "BuckConverter_V0A:UCC"
 			(at 6.858 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14716,30 +14721,33 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C0603_100uF"
-		(extends "CO6O3_10nF")
-		(property "Reference" "C"
-			(at -4.826 3.048 0)
+	(symbol "diode"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 4.318 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100uF"
-			(at -4.318 0.254 0)
+		(property "Value" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 11.43 -2.286 0)
+		(property "Footprint" "BuckConverter_V0A:Diode"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14753,6 +14761,311 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "diode_0_1"
+			(polyline
+				(pts
+					(xy 0.635 3.81) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 2.54) (xy 0.635 5.715) (xy 3.175 3.81) (xy 0.635 1.905) (xy 0.635 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 5.715) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 3.81) (xy 3.81 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "diode_1_1"
+			(pin input line
+				(at -2.54 3.81 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "terminal_2x1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BuckConverter_V0A:terminal_2x1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "terminal_2x1_0_1"
+			(rectangle
+				(start 1.27 6.35)
+				(end 3.81 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 5.08)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 4.445) (xy 2.54 5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 5.08) (xy 1.905 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "terminal_2x1_1_1"
+			(pin input line
+				(at 6.35 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "C0603_100uF"
+		(extends "CO6O3_1uF")
+		(property "Reference" "C"
+			(at 5.334 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 5.334 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BuckConverter_V0A:C0603"
+			(at 5.588 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CERAMIC"
+			(at -14.224 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14779,12 +15092,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BuckConverter_V0A:C0603"
 			(at 13.462 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""

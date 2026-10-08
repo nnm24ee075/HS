@@ -1,0 +1,112 @@
+(footprint "terminal_2x1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -16 -9.28 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "90a6d10e-df77-4b29-a21a-d94a214330a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "terminal_2x1"
+		(at -16 -7.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c65d385e-3cc4-49a9-a657-b3397080d70d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddd22097-5419-4777-91b0-9e1ee03123cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9221d4e-a0c1-4ce7-8e5f-93f9d4c4653e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.49936 -2.47)
+		(end 7.62 2.51936)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "433abfaa-596a-4834-8709-97e504b593ca")
+	)
+	(fp_rect
+		(start -2.49936 -2.47)
+		(end 7.62 2.51936)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6f699486-aa48-46ec-8a13-0c4b08984dd6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -16 -6.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9295dd2a-4a84-447c-8d20-a6d0f656da7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 2.0828 2.0828)
+		(drill 1.6764)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.127)
+		(clearance 0.127)
+		(uuid "dbf4c565-d4ed-484e-9cd3-1098d1829e4e")
+	)
+	(pad "2" thru_hole circle
+		(at 4.99872 0 90)
+		(size 2.0828 2.0828)
+		(drill 1.6764)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.127)
+		(clearance 0.127)
+		(uuid "9a7c90f3-9894-4987-917b-6593c5d18469")
+	)
+	(embedded_fonts no)
+)
