@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "buck_VOA")(type "KiCad")(uri "D:/buck_VOA.kicad_sym")(options "")(descr ""))
+)
